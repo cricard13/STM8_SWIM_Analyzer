@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommand>C:\Projects\STM8_SWIM_Analyzer\Visual Studio\x64\Release\Saleae Inc\Logic.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>SWIM communication.logicdata</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommand>C:\Projects\STM8_SWIM_Analyzer\Visual Studio\x64\Release\Saleae Inc\Logic.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Legacy-1.1.14|x64'">
+    <LocalDebuggerCommand>C:\Projects\STM8_SWIM_Analyzer\Visual Studio\x64\Release\Saleae Inc\Logic.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Legacy-1.1.14|Win32'">
+    <LocalDebuggerCommand>C:\Projects\STM8_SWIM_Analyzer\Visual Studio\Win32\Debug-Legacy-1.1.14\Saleae Inc\Logic.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>C:\Projects\STM8_SWIM_Analyzer\Visual Studio\Win32\Debug-Legacy-1.1.14\Saleae Inc\SWIM communication.logicdata</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>
