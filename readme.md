@@ -7,7 +7,7 @@ The SWIM STM8 Analyzer allows to decode the proprietary STMicroelectronics SWIM 
 It is documented in UM0470: https://www.st.com/content/ccc/resource/technical/document/user_manual/ca/89/41/4e/72/31/49/f4/CD00173911.pdf/files/CD00173911.pdf/jcr:content/translations/en.CD00173911.pdf
 
 
-The libraries required to build the analyzer is stored in another git repository, located here:
+The libraries required to build the analyzer are stored in another git repository, located here:
 [https://github.com/saleae/AnalyzerSDK](https://github.com/saleae/AnalyzerSDK)
 
 Note - This repository contains a submodule. Be sure to include submodules when cloning, for example `git clone --recursive https://github.com/cricard13/STM8_SWIM_Analyzer.git`. If you download the repository from Github, the submodules are not included. In that case you will also need to download the AnalyzerSDK repository linked above and place the AnalyzerSDK folder inside of the SampleAnalyzer folder.
